@@ -29,7 +29,7 @@ print(f"Scanning: {COINS}")
 while True:
     now_ny = datetime.now(ny_tz)
     
-    if 3 <= now_ny.hour < 6:
+    if 3 <= now_ny.hour < 7:
         best_signal = None
         best_score = -1
         
